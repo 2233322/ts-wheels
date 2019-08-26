@@ -1,0 +1,18 @@
+{
+  "name": "event-enpmmitter",
+  "version": "1.0.0",
+  "description": "简单的Event Emitter",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./dist/event-emitter.js",
+    "watch": "webpack --watch && node ./dist/event-emitter.js",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
