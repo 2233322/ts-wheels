@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="http://www.djw001.com/Public/Home/images/favicon.png">
+  <title>ScrollToTop</title>
+  <style>
+    .toTop {
+      position: fixed;
+      display: block;
+      bottom: 20px;
+      right: 20px;
+      width: 100px;
+      height: 100px;
+      background-color: blueviolet;
+    }
+  </style>
+</head>
+<body>
+  <div class="app" style="height: 4000px"></div>
+  <span id="toTop" class="toTop"></span>
+  <script src="./scrollToTop.js"></script>
+  <script>
+    let scrollToTop = new ScrollToTop('#toTop');
+  </script>
+</body>
+</html>
