@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="https://www.baidu.com/favicon.ico" type="image/x-icon" />
+  <title>Progerss Indicator</title>
+</head>
+<body>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .content {
+    margin:0 auto;
+    width: 400px;
+    height: 4000px;
+    background-color: blueviolet;
+  }
+  </style>
+  <div>
+    <div class="content"></div>
+  </div>
+  <script src="./progerssIndicator.js"></script>
+  <script>
+  let progressBar = new ProgerssIndicator({
+    color: '#f5222d'
+  });
+
+  progressBar.on('end', function(){
+    alert('阅读完毕！')
+  });
+  </script>
+</body>
+</html>
