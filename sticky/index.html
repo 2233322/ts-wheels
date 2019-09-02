@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="https://www.baidu.com/favicon.ico" type="image/x-icon" />
+  <title>Sticky</title>
+</head>
+<body>
+  <style>
+    * {
+      margin: 0;
+    }
+    body{
+      height: 3000px;
+    }
+  .leftbox{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    text-align: center;
+    color: #ffffff;
+    line-height: 300px;
+  }
+  #sticky {
+    width: 600px;
+    height: 100px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  </style>
+  <div class="leftbox">
+    height:300px;
+  </div>
+  <div id="sticky"></div>
+  <script src="./sticky.js"></script>
+  <script>
+  let sticky = new Sticky('#sticky', {
+    offset: 100
+  });
+  console.log(Sticky)
+  console.log(sticky)
+  </script>
+</body>
+</html>
