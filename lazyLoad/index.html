@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="https://www.baidu.com/favicon.ico" type="image/x-icon" />
+  <title>LazyLoad</title>
+</head>
+
+<body>
+  <style>
+    .wrapper {
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .wrapper p {
+      color: #33373d;
+      line-height: 1.5;
+      text-indent: 2em;
+    }
+    img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+  </style>
+  <div class="wrapper">
+    <h1>LazyLoad 演示</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <img src="img/loading.gif" alt="" data-lazy-src="img/1.jpg">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <img src="img/loading.gif" alt="" data-lazy-src="img/2.jpg">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <img src="img/loading.gif" alt="" data-lazy-src="img/3.jpg">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <img src="img/loading.gif" alt="" data-lazy-src="img/4.jpg">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+      <div class="hello">hello</div>
+      <div class="hi">hi</div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+      <img src="img/loading.gif" alt="" data-lazy-src="img/5.jpg">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate, rem molestiae? Hic sapiente iusto ea,
+      inventore at adipisci, incidunt consequatur laborum aliquam quia magnam dolore labore consectetur quisquam
+      officia!</p>
+
+    <img src="img/loading.gif" alt="" data-lazy-src="img/5.jpg">
+
+  </div>
+  <script src="./lazyLoad.js"></script>
+  <script>
+    let lazy = new Lazy()
+  </script>
+</body>
+
+</html>
